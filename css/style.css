@@ -2,3 +2,10 @@
 
 /* Note to self: attenzione a non sovrascrivere le classi di bootstrap */
 
+div[class*="col"]  {
+    padding: 5px;
+}
+
+div[class*="row"] {
+    padding-bottom: 20px;
+}
