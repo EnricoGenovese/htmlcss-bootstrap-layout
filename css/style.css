@@ -2,10 +2,16 @@
 
 /* Note to self: attenzione a non sovrascrivere le classi di bootstrap */
 
+
+/* spacing */
+
 div[class*="col"]  {
-    padding: 5px;
+    padding: 20px;
+    align-content: center;
 }
 
 div[class*="row"] {
     margin-bottom: 20px;
 }
+
+/* con tutti gl spazi omogenei, l'utilizzo del selettore globale della classe allegerisce il file html oltre a risparmiare tempo e codice */
