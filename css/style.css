@@ -14,4 +14,8 @@ div[class*="row"] {
     margin-bottom: 20px;
 }
 
+/* "Si può fareeeeeee!!!" */
+div.container :last-child.row :not(:last-of-type) {
+    color: white;
+}
 /* con tutti gl spazi omogenei, l'utilizzo del selettore globale della classe allegerisce il file html oltre a risparmiare tempo e codice */
